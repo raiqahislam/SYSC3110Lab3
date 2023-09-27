@@ -28,7 +28,7 @@ public class AddressBook extends BuddyInfo
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(0);
-        printf("Adding text for Github");
+        System.out.println("Adding text for Github");
 
     }
 

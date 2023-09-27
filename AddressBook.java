@@ -22,6 +22,14 @@ public class AddressBook extends BuddyInfo
         }
         return null;
     }
+    private void printDescription(){
+
+        buddy.getAddress();
+        buddy.getName();
+        buddy.getNumber();
+
+
+    }
 
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Alice","123 Apple St",514);

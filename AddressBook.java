@@ -22,6 +22,14 @@ public class AddressBook extends BuddyInfo
         }
         return null;
     }
+    private void printDescription(){
+
+        buddy.getAddress();
+        buddy.getName();
+        buddy.getNumber();
+
+
+    }
 
     private void printDescription(){
 
